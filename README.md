@@ -1,11 +1,25 @@
-# Nama    : Muhammad Jalaluddin
-# NIM     : 240605110235
+## Nama    : Muhammad Jalaluddin
+
+## NIM     : 240605110235
+
+## Kelas   : Web Programming A
+
+## Tautan Video Youtube Demonstrasi
+
+https://youtu.be/SJ5uheLNC5Q?si=WrebvkipHtlh0pJ6
+
+---
 
 #  UAS Web Programming - Blog Kami
 
 Aplikasi blog sederhana berbasis Laravel yang digunakan untuk menampilkan artikel, kategori, dan manajemen konten oleh admin.
 
 ---
+
+# Deskripsi Singkat
+
+Aplikasi ini merupakan sistem blog berbasis Laravel yang digunakan untuk menampilkan berbagai artikel seputar teknologi dan pemrograman. Pengguna dapat melihat daftar artikel berdasarkan kategori, membaca detail artikel,. Selain itu, terdapat fitur admin untuk mengelola data artikel, kategori, dan konten lainnya.
+
 
 ##  Cara Menjalankan Aplikasi Secara Lokal
 
@@ -94,7 +108,7 @@ http://127.0.0.1:8000
 
 ---
 
-## 🔐 Login Admin
+## Login Admin
 
 Silakan login melalui halaman:
 
@@ -106,38 +120,7 @@ Gunakan akun yang sudah dibuat di database atau melalui seeder.
 
 ---
 
-## 🖼️ Catatan Gambar
-
-Jika gambar tidak muncul:
-
-* Pastikan file gambar ada di:
-
-  ```
-  public/storage/gambar
-  ```
-* Atau jalankan:
-
-  ```bash
-  php artisan storage:link
-  ```
-
----
-
-Gunakan:
-
-```bash
-php artisan
-```
-
-atau di PowerShell:
-
-```bash
-.\artisan
-```
-
----
-
-## 👨‍💻 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 * Laravel
 * Bootstrap 5
@@ -146,7 +129,6 @@ atau di PowerShell:
 
 ---
 
-## 📄 Lisensi
 
 Project ini dibuat untuk keperluan UAS Web Programming.
 
