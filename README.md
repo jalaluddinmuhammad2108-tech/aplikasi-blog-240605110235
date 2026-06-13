@@ -1,3 +1,156 @@
+UAS WEB PROGRAMMING A
+Nama    : Muhammad Jalaluddin
+NIM     : 240605110235
+
+# 📌 UAS Web Programming - Blog Wisata
+
+Aplikasi blog sederhana berbasis Laravel yang digunakan untuk menampilkan artikel, kategori, dan manajemen konten oleh admin.
+
+---
+
+## 🚀 Cara Menjalankan Aplikasi Secara Lokal
+
+Ikuti langkah-langkah berikut untuk menjalankan project di komputer lokal:
+
+---
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/jalaluddinmuhammad2108-tech/UAS-WEB-PROGRAMMING.git
+cd UAS-WEB-PROGRAMMING
+```
+
+---
+
+### 2. Install Dependency Laravel
+
+```bash
+composer install
+```
+
+---
+
+### 3. Copy File Environment
+
+```bash
+cp .env.example .env
+```
+
+---
+
+### 4. Generate Key Aplikasi
+
+```bash
+php artisan key:generate
+```
+
+---
+
+### 5. Konfigurasi Database
+
+Buka file `.env`, lalu ubah sesuai database kamu:
+
+```env
+DB_DATABASE=nama_database
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+### 6. Migrasi Database
+
+```bash
+php artisan migrate
+```
+
+---
+
+### 7. (Opsional) Seeder Data
+
+Jika tersedia:
+
+```bash
+php artisan db:seed
+```
+
+---
+
+### 8. Jalankan Server Laravel
+
+```bash
+php artisan serve
+```
+
+---
+
+### 9. Akses Aplikasi
+
+Buka di browser:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## 🔐 Login Admin
+
+Silakan login melalui halaman:
+
+```
+/login
+```
+
+Gunakan akun yang sudah dibuat di database atau melalui seeder.
+
+---
+
+## 🖼️ Catatan Gambar
+
+Jika gambar tidak muncul:
+
+* Pastikan file gambar ada di:
+
+  ```
+  public/storage/gambar
+  ```
+* Atau jalankan:
+
+  ```bash
+  php artisan storage:link
+  ```
+
+---
+
+Gunakan:
+
+```bash
+php artisan
+```
+
+atau di PowerShell:
+
+```bash
+.\artisan
+```
+
+---
+
+## 👨‍💻 Teknologi yang Digunakan
+
+* Laravel
+* Bootstrap 5
+* MySQL
+* PHP
+
+---
+
+## 📄 Lisensi
+
+Project ini dibuat untuk keperluan UAS Web Programming.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
