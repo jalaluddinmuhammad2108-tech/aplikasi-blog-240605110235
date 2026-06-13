@@ -1,14 +1,13 @@
-UAS WEB PROGRAMMING A
-Nama    : Muhammad Jalaluddin
-NIM     : 240605110235
+# Nama    : Muhammad Jalaluddin
+# NIM     : 240605110235
 
-# 📌 UAS Web Programming - Blog Wisata
+#  UAS Web Programming - Blog Kami
 
 Aplikasi blog sederhana berbasis Laravel yang digunakan untuk menampilkan artikel, kategori, dan manajemen konten oleh admin.
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi Secara Lokal
+##  Cara Menjalankan Aplikasi Secara Lokal
 
 Ikuti langkah-langkah berikut untuk menjalankan project di komputer lokal:
 
